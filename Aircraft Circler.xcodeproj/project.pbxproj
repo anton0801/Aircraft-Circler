@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEAF02832C77825D00616F65 /* Aircraft_CirclerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF02822C77825D00616F65 /* Aircraft_CirclerApp.swift */; };
+		EEAF02852C77825D00616F65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAF02842C77825D00616F65 /* ContentView.swift */; };
+		EEAF02872C77826000616F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAF02862C77826000616F65 /* Assets.xcassets */; };
+		EEAF028A2C77826000616F65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAF02892C77826000616F65 /* Preview Assets.xcassets */; };
+		EEBD77982C77A2EA0093CFAA /* AVIATOR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EEBD77972C77A2EA0093CFAA /* AVIATOR-Bold.otf */; };
+		EEBD779C2C77A4650093CFAA /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD779B2C77A4650093CFAA /* PreferencesView.swift */; };
+		EEBD779E2C77A4AA0093CFAA /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD779D2C77A4AA0093CFAA /* SoundManager.swift */; };
+		EEBD77A12C77A6FF0093CFAA /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77A02C77A6FF0093CFAA /* RulesView.swift */; };
+		EEBD77A42C77AA980093CFAA /* MapLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77A32C77AA980093CFAA /* MapLevelsView.swift */; };
+		EEBD77A72C77AE5F0093CFAA /* CirclerGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77A62C77AE5F0093CFAA /* CirclerGameView.swift */; };
+		EEBD77A92C77AE660093CFAA /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77A82C77AE660093CFAA /* UserManager.swift */; };
+		EEBD77AC2C77BFFC0093CFAA /* CirclerGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77AB2C77BFFC0093CFAA /* CirclerGameScene.swift */; };
+		EEBD77AE2C78DCA30093CFAA /* PauseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77AD2C78DCA20093CFAA /* PauseNode.swift */; };
+		EEBD77B02C78E1900093CFAA /* WinNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77AF2C78E1900093CFAA /* WinNode.swift */; };
+		EEBD77B22C78E3390093CFAA /* LoseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBD77B12C78E3390093CFAA /* LoseNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEAF027F2C77825D00616F65 /* Aircraft Circler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aircraft Circler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAF02822C77825D00616F65 /* Aircraft_CirclerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft_CirclerApp.swift; sourceTree = "<group>"; };
+		EEAF02842C77825D00616F65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEAF02862C77826000616F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEAF02892C77826000616F65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEBD77972C77A2EA0093CFAA /* AVIATOR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AVIATOR-Bold.otf"; sourceTree = "<group>"; };
+		EEBD77992C77A2F70093CFAA /* Aircraft-Circler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Aircraft-Circler-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EEBD779B2C77A4650093CFAA /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		EEBD779D2C77A4AA0093CFAA /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		EEBD77A02C77A6FF0093CFAA /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		EEBD77A32C77AA980093CFAA /* MapLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLevelsView.swift; sourceTree = "<group>"; };
+		EEBD77A62C77AE5F0093CFAA /* CirclerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclerGameView.swift; sourceTree = "<group>"; };
+		EEBD77A82C77AE660093CFAA /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EEBD77AB2C77BFFC0093CFAA /* CirclerGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclerGameScene.swift; sourceTree = "<group>"; };
+		EEBD77AD2C78DCA20093CFAA /* PauseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseNode.swift; sourceTree = "<group>"; };
+		EEBD77AF2C78E1900093CFAA /* WinNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinNode.swift; sourceTree = "<group>"; };
+		EEBD77B12C78E3390093CFAA /* LoseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEAF027C2C77825D00616F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEAF02762C77825D00616F65 = {
+			isa = PBXGroup;
+			children = (
+				EEAF02812C77825D00616F65 /* Aircraft Circler */,
+				EEAF02802C77825D00616F65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEAF02802C77825D00616F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAF027F2C77825D00616F65 /* Aircraft Circler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEAF02812C77825D00616F65 /* Aircraft Circler */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD77A52C77AE490093CFAA /* CirclerGame */,
+				EEBD77A22C77AA8E0093CFAA /* MapLevels */,
+				EEBD779F2C77A6F60093CFAA /* Rules */,
+				EEBD779A2C77A4530093CFAA /* Preferences */,
+				EEBD77992C77A2F70093CFAA /* Aircraft-Circler-Info.plist */,
+				EEBD77972C77A2EA0093CFAA /* AVIATOR-Bold.otf */,
+				EEAF02822C77825D00616F65 /* Aircraft_CirclerApp.swift */,
+				EEAF02842C77825D00616F65 /* ContentView.swift */,
+				EEAF02862C77826000616F65 /* Assets.xcassets */,
+				EEAF02882C77826000616F65 /* Preview Content */,
+				EEBD779D2C77A4AA0093CFAA /* SoundManager.swift */,
+				EEBD77A82C77AE660093CFAA /* UserManager.swift */,
+			);
+			path = "Aircraft Circler";
+			sourceTree = "<group>";
+		};
+		EEAF02882C77826000616F65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEAF02892C77826000616F65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEBD779A2C77A4530093CFAA /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD779B2C77A4650093CFAA /* PreferencesView.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		EEBD779F2C77A6F60093CFAA /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD77A02C77A6FF0093CFAA /* RulesView.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		EEBD77A22C77AA8E0093CFAA /* MapLevels */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD77A32C77AA980093CFAA /* MapLevelsView.swift */,
+			);
+			path = MapLevels;
+			sourceTree = "<group>";
+		};
+		EEBD77A52C77AE490093CFAA /* CirclerGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD77AA2C77BFF00093CFAA /* Scene */,
+				EEBD77A62C77AE5F0093CFAA /* CirclerGameView.swift */,
+			);
+			path = CirclerGame;
+			sourceTree = "<group>";
+		};
+		EEBD77AA2C77BFF00093CFAA /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EEBD77AB2C77BFFC0093CFAA /* CirclerGameScene.swift */,
+				EEBD77AD2C78DCA20093CFAA /* PauseNode.swift */,
+				EEBD77AF2C78E1900093CFAA /* WinNode.swift */,
+				EEBD77B12C78E3390093CFAA /* LoseNode.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEAF027E2C77825D00616F65 /* Aircraft Circler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAF028D2C77826000616F65 /* Build configuration list for PBXNativeTarget "Aircraft Circler" */;
+			buildPhases = (
+				EEAF027B2C77825D00616F65 /* Sources */,
+				EEAF027C2C77825D00616F65 /* Frameworks */,
+				EEAF027D2C77825D00616F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aircraft Circler";
+			productName = "Aircraft Circler";
+			productReference = EEAF027F2C77825D00616F65 /* Aircraft Circler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEAF02772C77825D00616F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EEAF027E2C77825D00616F65 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EEAF027A2C77825D00616F65 /* Build configuration list for PBXProject "Aircraft Circler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEAF02762C77825D00616F65;
+			productRefGroup = EEAF02802C77825D00616F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEAF027E2C77825D00616F65 /* Aircraft Circler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEAF027D2C77825D00616F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBD77982C77A2EA0093CFAA /* AVIATOR-Bold.otf in Resources */,
+				EEAF028A2C77826000616F65 /* Preview Assets.xcassets in Resources */,
+				EEAF02872C77826000616F65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEAF027B2C77825D00616F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBD77A72C77AE5F0093CFAA /* CirclerGameView.swift in Sources */,
+				EEAF02852C77825D00616F65 /* ContentView.swift in Sources */,
+				EEBD77AE2C78DCA30093CFAA /* PauseNode.swift in Sources */,
+				EEBD77A12C77A6FF0093CFAA /* RulesView.swift in Sources */,
+				EEBD77A42C77AA980093CFAA /* MapLevelsView.swift in Sources */,
+				EEBD779E2C77A4AA0093CFAA /* SoundManager.swift in Sources */,
+				EEBD77AC2C77BFFC0093CFAA /* CirclerGameScene.swift in Sources */,
+				EEBD77B02C78E1900093CFAA /* WinNode.swift in Sources */,
+				EEBD779C2C77A4650093CFAA /* PreferencesView.swift in Sources */,
+				EEBD77A92C77AE660093CFAA /* UserManager.swift in Sources */,
+				EEBD77B22C78E3390093CFAA /* LoseNode.swift in Sources */,
+				EEAF02832C77825D00616F65 /* Aircraft_CirclerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEAF028B2C77826000616F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEAF028C2C77826000616F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEAF028E2C77826000616F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aircraft Circler/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aircraft-Circler-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Aircraft-Circler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEAF028F2C77826000616F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aircraft Circler/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aircraft-Circler-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Aircraft-Circler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEAF027A2C77825D00616F65 /* Build configuration list for PBXProject "Aircraft Circler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAF028B2C77826000616F65 /* Debug */,
+				EEAF028C2C77826000616F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAF028D2C77826000616F65 /* Build configuration list for PBXNativeTarget "Aircraft Circler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAF028E2C77826000616F65 /* Debug */,
+				EEAF028F2C77826000616F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEAF02772C77825D00616F65 /* Project object */;
+}
